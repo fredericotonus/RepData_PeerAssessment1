@@ -33,7 +33,7 @@ hist(day_steps,
      xlab = "Number of steps")
 ```
 
-![plot of chunk histogram/mean/median](figure/histogram/mean/median-1.png)
+![plot of chunk histogram/mean/median](figure/hist1.png)
 
 ``` r
 mean1 <- mean(day_steps, na.rm = TRUE)
@@ -71,7 +71,7 @@ ggplot(steps_per_int, aes(x = interval, y = avg_steps)) +
                    y = "Number of steps") 
 ```
 
-![plot of chunk times series plot](figure/times series plot-1.png)
+![plot of chunk times series plot](figure/time series plot.png)
 
 ``` r
 max_int <- steps_per_int %>% 
@@ -125,7 +125,7 @@ hist(new_day_steps,
      xlab = "Number of steps")
 ```
 
-![plot of chunk new histogram/mean/median](figure/new histogram/mean/median-1.png)
+![plot of chunk new histogram/mean/median](figure/hist2.png)
 
 ``` r
 mean2 <- mean(new_day_steps)
@@ -188,7 +188,7 @@ ggplot(wd_steps, aes(x = interval, y = avg_steps)) +
                    y = "Number of steps")
 ```
 
-![plot of chunk panel plot](figure/panel plot-1.png)
+![plot of chunk panel plot](figure/panel plot.png)
 
 
 
